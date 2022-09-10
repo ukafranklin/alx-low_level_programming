@@ -1,13 +1,13 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
-
 int main(void)
 {
-	char a - 'a';
+	char a = 'a';
 
 	while (a <= 'z')
 	{
@@ -23,6 +23,6 @@ int main(void)
 		a++;
 	}
 
-	putchar('\n')
-		return (0);
+	putchar('\n');
+	return (0);
 }
