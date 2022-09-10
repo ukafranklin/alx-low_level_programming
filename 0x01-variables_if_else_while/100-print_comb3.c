@@ -14,7 +14,7 @@ int main(void)
 		{
 			if (i == j)
 			{
-				contiue
+				continue;
 			}
 
 			putchar(i);
