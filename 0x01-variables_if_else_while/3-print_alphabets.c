@@ -6,17 +6,23 @@
  */
 int main(void)
 {
-	char alpha;
-	char bet;
+	char a - 'a';
 
-	for (alpha = 'a' ; alpha <= 'z' ; alpha++)
+	while (a <= 'z')
 	{
-		putchar)alpha);
+
+		putchar(a);
+		a++;
 	}
-	for (bet = 'A' ; bet <= 'Z' ; bet++)
+
+	a = 'A';
+
+	while (a <= 'Z')
 	{
-		putchar(bet);
+		putchar(a);
+		a++;
 	}
-	putchar('\n');
-	return (0);
+
+	putchar('\n')
+		return (0);
 }
