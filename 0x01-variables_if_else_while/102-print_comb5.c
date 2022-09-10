@@ -17,7 +17,7 @@ int main(void)
 
 				putchar(j / 10 + 48);
 				putchar(j % 10 + 48);
-				putchat(' ');
+				putchar(' ');
 				putchar(i / 10 + 48);
 				putchar(i % 10 + 48);
 
