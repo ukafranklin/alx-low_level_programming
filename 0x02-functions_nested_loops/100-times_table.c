@@ -5,7 +5,7 @@
  * Description: If `n` is greater than 15 or less than 0, print nothing.
  * @n: int type number
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 	int x = 0, y, z;
 
@@ -43,5 +43,6 @@ void times_table(int n)
 			}
 		}
 		_putchar('\n');
-		x++;														}
+		x++;
+	}
 }
