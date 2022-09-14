@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
  * main - Entry point
- *  
+ *
  * Return: Always 0 (Success)
- */
+*/
 int main(void)
 {
 	char h[] = "_putchar";
@@ -13,7 +13,7 @@ int main(void)
 
 	while (m <= 8)
 	{
-		_putchar(h[m]);	
+	_putchar(h[m]);
 		m++;
 	}
 	_putchar('\n');
