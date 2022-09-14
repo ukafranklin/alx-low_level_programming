@@ -1,12 +1,13 @@
 #include "holberton.h"
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
-*/
+ */
 int main(void)
 {
-	char h[] = "_putchar";
+	char h[9] = "_putchar";
 	int m;
 
 	m = 0;
