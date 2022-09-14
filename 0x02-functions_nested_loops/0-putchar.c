@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Entry point
@@ -7,16 +7,15 @@
  */
 int main(void)
 {
-	char h[9] = "_putchar";
-	int m;
+	char putchar[] = "_putchar";
+	int i = 0;
 
-	m = 0;
-
-	while (m <= 8)
+	while (putchar[i] != '\0')
 	{
-	_putchar(h[m]);
-		m++;
+		_putchar(putchar[i]);
+		i++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
